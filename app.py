@@ -71,7 +71,7 @@ def run_dashboard_with_filter(model, x_test):
         with open(image_path, "rb") as image_file:
             return base64.b64encode(image_file.read()).decode()
 
-    img_data = encode_image('C:/Users/charubala/Desktop/placement/Projects/SmartTrafficPrediction/SmartTrafficPrediction/back1.jpg')
+    img_data = encode_image('back1.jpg')
     st.markdown(f"""
         <style>
             .stApp {{
@@ -135,7 +135,7 @@ def chatbot_page(df):
         with open(image_path, "rb") as image_file:
             return base64.b64encode(image_file.read()).decode()
 
-    img_data = encode_image('C:/Users/charubala/Desktop/placement/Projects/SmartTrafficPrediction/SmartTrafficPrediction/back1.jpg')
+    img_data = encode_image('back1.jpg')
     st.markdown(f"""
         <style>
             .stApp {{
